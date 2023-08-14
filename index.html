@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/76f74114a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>SPExpo</title>
+</head>
+
+<body>
+    <section class="title" id="title">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="ieee" src="images/IEEEwhite.png" alt="IEEE-Logo"
+                        width="200" height="98"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end navbar-color">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#title" style="color: white;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" style="color: white;">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="https://www.townscript.com/e/copy-of-wips3" style="color: white;">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#activities" style="color: white;">Activities</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footerr" style="color: white;">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row align-items-center bg-transparent text-light text-center">
+                <img id="women" src="images/SPExpoLogo.png" alt="logo">
+                <h1 class="sub-main" id="sub-main"><i>Idea Pitching Competition based on signal processing <br>
+                        22<sup>nd</sup> August 2023</i> </h1>
+                <!-- <h1 class="sub-main" id="sub-main"><i>22<sup>nd</sup> August 2023</i> </h1> -->
+                <br><br><br>
+                <p id="demo"></p>
+            </div>
+        </div>
+
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("august 22, 2023 09:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+                    + minutes + "m " + seconds + "s ";
+
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+
+    </section>
+
+    <hr style="border-width: 10px; color: white;">
+
+    <!-- <section id="register-now">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="https://www.townscript.com/e/copy-of-wips3"> <img class="register-now" src="images/register-now-2.svg"
+                    alt="Register Now"> </a>
+        </div>
+
+    </section> -->
+
+    <section id="about">
+        <br>
+        <br>
+        <h1 class="section-title">About</h1><br>
+        <h2 style="text-align: center;">SPExpo</h2>
+        <p class="about-info" style="text-align: justify;">
+            SPExpo is an extraordinary event hosted by the IEEE SPS Student Branch Chapter at the College of Engineering
+            Karunagappally, with the esteemed support of IEEE Signal Processing Society. Our mission is to introduce
+            young minds to the captivating world of signal processing through engaging sessions and interactive
+            workshops.
+            <br><br>
+            At SPExpo, students will discover the pivotal role signal processing plays in our daily lives, touching
+            various aspects such as communications, multimedia, and medical imaging. We believe in empowering students
+            to explore their passion for technology. That's why we've organized an exhilarating idea pitching
+            competition, allowing participants to showcase their creative and innovative ideas related to signal
+            processing.
+
+        </p>
+        <br><br>
+
+        <h2 style="text-align: center;">IEEE</h2>
+        <p class="about-info" style="text-align: justify;">
+            IEEE is the world's largest technical professional organisation dedicated to advancing technology for the
+            benefit of humanity. IEEE Student Branch College of Engineering Karunagappally is a vibrant and highly
+            esteemed Student Branch on a global scale. Our SB thrives on challenges and innovative ideas, fostering
+            technical advancement and collaboration among students and professionals alike. As pioneers, we have
+            achieved numerous accolades, including five consecutive IEEE MGA Regional Exemplary Awards and global
+            recognition through HPSBCP rankings (First in Region 10). Our flagship event, the IEEE International Power
+            and Renewable Energy Conference (IPRECON), has been groundbreaking in the field, showcasing India's first &
+            only IEEE IAS Club of 6 Technical Paper Conference.
+
+            At IEEE SB CEK, we are committed to serving the community with impactful events, benefiting aspiring
+            technical enthusiasts. Beyond our college, we extend our reach to schools and society, conducting workshops
+            in various educational institutions and organizing digital literacy classes for women in collaboration with
+            Kudumbasree. As one of the most active and significant student branches, we are dedicated to advancing
+            technology for the betterment of humanity and contributing to a brighter future.
+            <br><br>
+            At SPExpo, students will discover the pivotal role signal processing plays in our daily lives, touching
+            various aspects such as communications, multimedia, and medical imaging. We believe in empowering students
+            to explore their passion for technology. That's why we've organized an exhilarating idea pitching
+            competition, allowing participants to showcase their creative and innovative ideas related to signal
+            processing.
+
+        </p>
+    </section>
+
+    <section id="competition">
+        <h1 class="section-title">The Competition</h1><br><br>
+        <p class="about-info" style="text-align: justify;">
+            After the successful completion of the session, we offer an exciting opportunity for students to showcase
+            their creativity and passion for technology through an idea pitching competition. Students can form a team
+            of 3 or 4 and submit their project ideas in a comprehensive presentation format.
+
+            The presentation should include the project's name, a detailed description, its purpose, estimated budget
+            feasibility, real-life significance, and the motivation behind it. We encourage teams to present their ideas
+            with clarity and visuals to convey their concepts effectively. Our judging panel will assess the submissions
+            based on creativity, originality, feasibility, and potential impact. The top teams will be rewarded with
+            exciting cash prizes.
+
+            Moreover, on the same day, there will be an exhibition of college-level projects related to signal
+            processing in our college. Schools are invited to witness these innovative projects and be inspired by the
+            out-of-the-box ideas presented by the college students.
+
+            We believe that this competition will encourage students to think critically and passionately about
+            technology and its applications. Join us on 24th August at the College of Engineering Karunagappally and
+            let's explore the limitless possibilities of signal processing together. Together, we can pave the way for a
+            future filled with transformative idea
+        </p>
+
+    </section>
+
+    <!-- <section id="speaker">
+        <h1 class="section-title">Speakers</h1><br>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/speaker_shyam.jpeg" class="d-block w-100" alt="Talk session">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/sonu.png" class="d-block w-100" alt="Talk session">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/aperna.jpeg" class="d-block w-100" alt="Talk session">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/speaker_sreepriya.jpeg" class="d-block w-100" alt="Talk session">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/deiva.jpeg" class="d-block w-100" alt="Talk session">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> -->
+
+    <!-- <section id="activities">
+        <p><br><br></p>
+        <h1 class="section-title">Activities</h1>
+        <p><br><br></p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card small">
+                    <img src="images/tech_workshop.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <br>
+                        <h4><b>TECHNICAL WORKSHOP</b></h4>
+                        <br>
+                        <p>It will present a fresh concept, motivate participants to investigate it further on their
+                            own, or serve to illustrate and encourage the use of the real process. It is an excellent
+                            way to teach practical skills since it allows students to experiment and fail in a secure
+                            setting.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card small">
+                    <img src="images/sex ed for all image.png" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <br>
+                        <h4><b>SEX EDUCATION</b></h4>
+                        <br>
+                        <p>Sex education is a comprehensive set of knowledge and process of learning the emotional,
+                            physical and social aspects of sexuality. Sex education teaches not only the basics of
+                            puberty, body changes and development but also gives a comprehensive understanding of their
+                            bodies and how to say no to unwanted sexual activities.Knowing about your sexuality gives
+                            altogether a better and productive mindset and relationship in the future. Moreover this
+                            session will help you to know yourself in a better way.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card small">
+                    <img src="images/women_leaders.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <br>
+                        <h4><b>ONE ON ONE WITH WOMEN LEADERS</b></h4>
+                        <br>
+                        <p>This session aims to inspire and empower women and men across the world to engage in
+                            purposeful career development and take on leadership for important causes to lead change
+                            with more conviction and confidence and improve our workplaces and communities for all. By
+                            offering more complex understanding of issues related to professional women and work. The
+                            session will help you increase self-knowledge about your own values and vision as well as
+                            enhance your capabilities as a leader, manager, and team contributor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card large">
+                    <img src="images/thenmala dam.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <br>
+                        <h4><b>INDUSTRIAL VISIT</b></h4>
+                        <br>
+                        <p>Industrial visits represent an important activity in any engineering undergraduate programme
+                            that contributes to the achievement of various essential learning outcomes and programme
+                            objectives. It provide us with an opportunity to learn practically through interaction,
+                            working methods and employment practices. It gives us an exposure to current work practices
+                            as opposed to theoretical knowledge being taught at their college classrooms. Intending to
+                            go beyond classroom learning, the industrial tours contribute a lot in holistic students
+                            development by letting students learn about the current trends, the future scenario of the
+                            industry and the new technologies that are being applied in the industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card large">
+                    <img src="images/thenmala ecotourism.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <br>
+                        <h4><b> FIELD VISIT </b></h4>
+                        <br>
+                        <p>Its an opportunity to come out of the classroom confinements and enjoy the embrace of the
+                            natural surroundings, in the company of classmates and peers. Its not just a fun picnic. Its
+                            stress- reliever and mood uplifter. Enjoying the nature's beauty will fill your mind with
+                            happiness ......
+                            <br> So, for relieving your academic and all other pressure, do u want to go on a field
+                            visit?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card large">
+                    <img src="images/entrepreneur_workshop.jpeg" alt="Avatar" style="width:100%">
+                    <div class="container"> <br>
+                        <h4><b> ENTREPRENEURSHIP WORKSHOP </b></h4>
+                        <br>
+                        <p>Entrepreneurship workshops allow you to attain knowledge about present and future
+                            developments and recent trends in startup field. For such a rapid growing economy it's
+                            important to evolve along with the changes and get updated according to the technologies.
+                            This workshop will be an absolute milestone towards your dream of becoming an entrepreneur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="footerr">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Menu
+                    </h6>
+                    <p>
+                        <a href="#about" class="text-reset">About</a>
+                    </p>
+                    <!-- <p>
+                        <a href="https://www.townscript.com/e/copy-of-wips3" class="text-reset">Registration</a>
+                    </p> -->
+                </div>
+
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+                    <p> <i class="fas fa-home me-3"></i> <a href="https://ieeesbcek.org/" style="color: white;"> IEEE SB
+                            CEK</p> </a>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        <a href="mailto:ieeesbcek2000@gmail.com" style="color: white;">
+                            ieeesbcek2000@gmail.com
+                        </a>
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i>Shabna S: <a href="tel:8848458917" style="color: white;">+91
+                            88484 58917</a></p>
+                    <p><i class="fas fa-phone me-3"></i>Sidhi A S: <a href="tel:8848458917" style="color: white;">+91
+                            97782 31771</a></p>
+                </div>
+
+            </div>
+
+        </div>
+        <p>Made with &#10084 | IEEE SB CEK</p>
+        <div>
+            <a href="https://facebook.com/ieeeceksb" style="padding: 0 1% 0 1% ; color: white;"><i
+                    class="fab fa-facebook-f fa-xl"></i></a>
+            <a href="https://twitter.com/IEEE_SB_CEK" style="padding: 0 1% 0 1% ; color: white;"><i
+                    class="fab fa-twitter fa-xl"></i></a>
+            <a href="https://www.linkedin.com/company/ieeesbcek" style="padding: 0 1% 0 1% ; color: white;"><i
+                    class="fab fa-linkedin fa-xl"></i></a>
+            <a href="https://instagram.com/ieee_sb_cek" style="padding: 0 1% 0 1% ; color: white;"><i
+                    class="fab fa-instagram fa-xl"></i></a>
+            <br><br>
+            <footer id="footer">
+                <p>© Copyright IEEE SB CEK</p>
+            </footer>
+    </section>
+
+</body>
+
+</html>
