@@ -158,6 +158,19 @@ body {
   padding: 3% 10% 3% 10%;
 }
 
+#submissions{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 3% 10% 3% 10%;
+}
+.submission-info{
+    border: 5px solid #ff4c68;
+    border-radius: 5rem;
+    padding: 4%;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
 }
