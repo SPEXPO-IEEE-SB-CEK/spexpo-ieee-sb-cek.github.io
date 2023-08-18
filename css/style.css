@@ -18,7 +18,11 @@ body {
 }
 
 /* big screen */
-/* @media screen and (min-width: 601px) { */
+@media screen and (min-width: 601px) {
+  #main-page{
+    padding-top: 10%;
+  }
+}
   
   h1.sub-main {
     font-size: 30px;
@@ -61,54 +65,22 @@ body {
     padding: 15%;
   }
   
-/* } */
 
 /* small screen  */
-/* @media screen and (max-width: 768px) {
-  img.ieee {
-    width: 100px;
-    height: 49px;
+@media screen and (max-width: 768px) {
+  #main-page{
+    padding-top: 26%;
   }
-  section.title {
-    color: #ff4c68;
-    padding: 3% 7% 3% 7%;
-  }
-  h1.main {
-    font-size: 60px;
-    color: #ff4c68;
-  }
-  h1.sub-main {
-    font-size: 20px;
-    color: black;
-  }
-  .card {
-    color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    border: 5px solid #ff4c68;
-    border-radius: 1rem;
-  }
-  #wipslogo {
-    height: 130px;
-    padding: 3% 4% 7% 4%;
-  }
-  .register-now{
-    width: 100%;
-    padding-top: 5%;
-  } 
-  
-  #speaker{
-    padding: 5%;
-  }
-} */
+}
 
 #demo {
-  padding-top: 5%;
+  padding-top: 2%;
   text-align: center;
   font-size: 5vh;
   color: #71B343;
 }
+
+
 
 #about {
 
@@ -136,6 +108,14 @@ body {
 
 #competition{
   color: white;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  padding: 3% 10% 3% 10%;
+}
+
+.competition{
+  background-color: black;
+  color: black;
   font-size: x-large;
   font-family: "Montserrat", sans-serif;
   padding: 3% 10% 3% 10%;
