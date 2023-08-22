@@ -112,4 +112,9 @@
         font-size: .8125rem;
         line-height: 1.5rem;
     }
+
+    #women{
+        padding-top: 10%;
+        padding-bottom: 30%;
+    }
 }
