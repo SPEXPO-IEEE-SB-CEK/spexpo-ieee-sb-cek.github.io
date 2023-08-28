@@ -293,9 +293,13 @@ h5 {
   background-color: var(--bg-color);
 }
 
+.service-item-wrap .tab-content img {
+  width: 100%;
+}
+
 .service-menu-area ul li a {
-  display: block;
-  margin-bottom: 2.8125rem;
+  margin-bottom: .8125rem;
+  overflow: hidden;
 }
 
 .service-menu-area ul li a .service-icon {
@@ -318,13 +322,12 @@ h5 {
 }
 
 .service-menu-area ul li:nth-child(1) {
-  margin-left: 0.5625rem;
+  margin-left: -1.4375rem;
 }
 
 .service-menu-area ul li:nth-child(2) {
-  margin-top: 1.525rem;
-  /* margin-left: -2.9375rem; */
-  margin-left: 0.5625rem;
+  margin-left: -5.4375rem;
+  margin-top: 8rem;
 }
 
 .service-menu-area ul li a p,
