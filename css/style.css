@@ -345,7 +345,7 @@ h5 {
   font-size: 1.5rem;
   line-height: 1;
   color: var(--primary-text);
-  /* margin-bottom: .9375rem; */
+  margin-bottom: .9375rem;
   font-weight: 500;
   font-family: var(--secondary-font);
 }
