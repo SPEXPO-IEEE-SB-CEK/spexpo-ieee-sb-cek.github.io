@@ -68,6 +68,10 @@
         border-color: var(--bg-main);
         color: var(--text-white);
     }
+
+    .navbar-brand{
+        width: 60%;
+    }
     
     /* services */
     .service-menu-area ul li:nth-child(1) {
