@@ -121,4 +121,8 @@
         padding-top: 10%;
         padding-bottom: 30%;
     }
+    
+    .navbar-brand{
+        width: 60%;
+    }
 }
