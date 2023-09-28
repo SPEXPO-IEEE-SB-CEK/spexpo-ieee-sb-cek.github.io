@@ -154,6 +154,10 @@ a{
   z-index: 2;
 }
 
+.booking-area span{
+  color: var(--secondary-text);
+}
+
 #women{
   padding-top: 5%;
   padding-bottom: 5%;
