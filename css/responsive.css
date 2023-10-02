@@ -14,8 +14,12 @@
     }
 
     #main-page{
-        padding-top: 10%;
-      }
+        padding: 20%;
+    }
+    
+    #main-page h2{
+        font-size: 2rem;
+    }
 
     /* service */
     .service-item-wrap .tab-content img {
