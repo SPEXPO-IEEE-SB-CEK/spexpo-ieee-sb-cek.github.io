@@ -27,6 +27,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="SPExpo Logo.png" type="image/x-icon">
     <title>SPExpo</title>
 </head>
 
@@ -123,7 +126,7 @@
                 // If the count down is over, write some text 
                 if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
+                    document.getElementById("demo").innerHTML = "Event Completed";
                 }
             }, 1000);
         </script>
@@ -144,7 +147,7 @@
                     
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
-                    <img decoding="async" src="images/about_us.jpeg" class="img-fluid" alt="About Us">
+                    <img decoding="async" src="images/SPExpo.jpg" class="img-fluid" alt="About Us">
                 </div>
 
             </div>
@@ -229,21 +232,21 @@
     </section>
     <!-- Services section Exit -->
 
-    <!-- regiter page -->
+    <!-- register page -->
     <section id="register">
         <br>
         <h3 class="text-center">Register</h3>
         <div class="row flex-lg-row flex-column-reverse ">
             <div class="col-lg-6 text-center text-lg">
                 <h3>College Students</h3>
-                <a href="https://www.townscript.com/e/spexpo" class="main-btn mt-4">Closed</a>
+                <button class="main-btn mt-4">Closed</button>
                 <!-- <p class="main-btn mt-4">Coming Soon</p> -->
                 
             </div>
             <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
                 <h3>School Students</h3>
                 <!-- <a href="https://bit.ly/spexpo2023" class="main-btn mt-4">Closed</a> -->
-                <a href="" class="main-btn mt-4">Closed</a>
+                <button class="main-btn mt-4">Closed</button>
                 <!-- <p class="main-btn mt-4">Coming Soon</p> -->
             </div>
         </div>
